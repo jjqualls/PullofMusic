@@ -125,13 +125,13 @@ public class PlayerController : MonoBehaviour
     /// <summary>
     /// Lets the player move
     /// </summary>
-    void Update()
+    void FixedUpdate()
     {
         /*Vector3 moveVector = (playerMovement.x * transform.right) + (playerMovement.z * transform.forward);
         rb.velocity = new Vector3(moveVector.x, rb.velocity.y, moveVector.z);
         Debug.Log(playerMovement.x);*/
-        rb.AddForce(transform.forward * playerMovement.z, ForceMode.Acceleration);
-        rb.AddForce(transform.right * playerMovement.x, ForceMode.Acceleration);
+        rb.AddForce(transform.forward * playerMovement.z, ForceMode.Impulse);
+        rb.AddForce(transform.right * playerMovement.x, ForceMode.Impulse);
     }
 
     private void OnDestroy()
