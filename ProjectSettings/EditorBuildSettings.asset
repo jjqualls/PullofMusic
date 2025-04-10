@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Title screen.unity
+    guid: d01a22f45f8030c4f83d32ee1cf8ce81
+  - enabled: 1
+    path: Assets/Scenes/Cutscene1.unity
+    guid: badaaab174973cf49b5b78b389c7835a
+  - enabled: 1
+    path: Assets/Scenes/Cutscene2.unity
+    guid: d6107207c647d704299060b6f2d58ced
+  - enabled: 1
+    path: Assets/Scenes/Maze1.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Cutscene3.unity
+    guid: add32da6dc0358f498f9b14998cf6879
+  - enabled: 1
+    path: Assets/Scenes/Maze2.unity
+    guid: 2480300a38f7c97459026c03e7a40f5b
+  - enabled: 1
+    path: Assets/Scenes/Cutscene4.unity
+    guid: 25ae4ce0ef1193a4eb792d9d5f680971
+  - enabled: 1
+    path: Assets/Scenes/Maze3.unity
+    guid: ef1d7cdbc414c0540bd0a8db60c40124
+  - enabled: 1
+    path: Assets/Scenes/Cutscene5.unity
+    guid: f56263a513393ec4c8888b89d0fc5464
+  - enabled: 1
+    path: Assets/Scenes/End screen.unity
+    guid: 7228036e6fbba5b47bafcd912eae9fc5
+  m_configObjects: {}
