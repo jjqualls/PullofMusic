@@ -54,8 +54,8 @@ public class PlayerController : MonoBehaviour
     private void Move_performed(InputAction.CallbackContext obj)
     {
         Vector2 inputMovement = obj.ReadValue<Vector2>();
-        playerMovement.x = inputMovement.x;
-        playerMovement.z = inputMovement.y;
+        playerMovement.x = inputMovement.x * moveSpeed;
+        playerMovement.z = inputMovement.y * moveSpeed;
     }
 
     /// <summary>

@@ -1995,7 +1995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerInput: {fileID: 1147202335192914757}
-  moveSpeed: 20
+  moveSpeed: 10
 --- !u!114 &1664767810814223893
 MonoBehaviour:
   m_ObjectHideFlags: 0

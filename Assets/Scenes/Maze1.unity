@@ -204,7 +204,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6ccfd34402164e4fb8b10832db747c4, type: 2}
+  - {fileID: 2100000, guid: 580ddf15729906644a60d8e8ae15ea88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c4f4b6ba358e243b6c33336f4e636e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
+  controller: {fileID: 1742706588}
 --- !u!65 &58545630
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -833,7 +833,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6ccfd34402164e4fb8b10832db747c4, type: 2}
+  - {fileID: 2100000, guid: 580ddf15729906644a60d8e8ae15ea88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -875,7 +875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c4f4b6ba358e243b6c33336f4e636e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
+  controller: {fileID: 1742706588}
 --- !u!65 &269577726
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1042,7 +1042,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6ccfd34402164e4fb8b10832db747c4, type: 2}
+  - {fileID: 2100000, guid: 580ddf15729906644a60d8e8ae15ea88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1084,7 +1084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c4f4b6ba358e243b6c33336f4e636e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
+  controller: {fileID: 1742706588}
 --- !u!65 &434960276
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1461,7 +1461,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6ccfd34402164e4fb8b10832db747c4, type: 2}
+  - {fileID: 2100000, guid: 580ddf15729906644a60d8e8ae15ea88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1503,7 +1503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c4f4b6ba358e243b6c33336f4e636e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
+  controller: {fileID: 1742706588}
 --- !u!65 &660180038
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1746,6 +1746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7033732169138517769, guid: 472eda4c7fef9044098f07d1125affaf, type: 3}
+      propertyPath: launchValue
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1833,7 +1837,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6ccfd34402164e4fb8b10832db747c4, type: 2}
+  - {fileID: 2100000, guid: 580ddf15729906644a60d8e8ae15ea88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1875,7 +1879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c4f4b6ba358e243b6c33336f4e636e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
+  controller: {fileID: 1742706588}
 --- !u!65 &873786749
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2386,7 +2390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1742706586}
-  offset: {x: 0, y: 0.86, z: -12}
+  offset: {x: 0, y: 2.17, z: -12}
 --- !u!1 &1297195600
 GameObject:
   m_ObjectHideFlags: 0
@@ -2944,7 +2948,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6ccfd34402164e4fb8b10832db747c4, type: 2}
+  - {fileID: 2100000, guid: 580ddf15729906644a60d8e8ae15ea88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2986,7 +2990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c4f4b6ba358e243b6c33336f4e636e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
+  controller: {fileID: 1742706588}
 --- !u!65 &1924940677
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3258,7 +3262,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6ccfd34402164e4fb8b10832db747c4, type: 2}
+  - {fileID: 2100000, guid: 580ddf15729906644a60d8e8ae15ea88, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3300,7 +3304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c4f4b6ba358e243b6c33336f4e636e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
+  controller: {fileID: 1742706588}
 --- !u!65 &1995610053
 BoxCollider:
   m_ObjectHideFlags: 0
