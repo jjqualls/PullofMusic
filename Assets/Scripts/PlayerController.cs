@@ -38,12 +38,12 @@ public class PlayerController : MonoBehaviour
         quit = playerInput.currentActionMap.FindAction("Quit");
         restart = playerInput.currentActionMap.FindAction("Restart");
         move = playerInput.currentActionMap.FindAction("Move");
-        //pause = playerInput.currentActionMap.FindAction("Pause");
+        pause = playerInput.currentActionMap.FindAction("Pause");
 
         quit.performed += Quit_performed;
         restart.performed += Restart_performed;
         move.performed += Move_performed;
-        //pause.performed += Pause_performed; //until I have a pause menu setup
+        pause.performed += Pause_performed; //until I have a pause menu setup
 
     }
 
@@ -63,10 +63,10 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     /// <param name="obj"></param>
     /// <exception cref="System.NotImplementedException"></exception>
-    /*private void Pause_performed(InputAction.CallbackContext obj)
+    private void Pause_performed(InputAction.CallbackContext obj)
     {
-        throw new System.NotImplementedException();
-    }*/
+        //
+    }
 
     /// <summary>
     /// Restarts the level
@@ -138,6 +138,7 @@ public class PlayerController : MonoBehaviour
     {
         quit.performed -= Quit_performed;
         restart.performed -= Restart_performed;
-        //pause.performed -= Pause_performed;
+        move.performed -= Move_performed;
+        pause.performed -= Pause_performed;
     }
 }

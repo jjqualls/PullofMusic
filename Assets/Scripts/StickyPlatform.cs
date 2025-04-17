@@ -16,6 +16,7 @@ public class StickyPlatform : MonoBehaviour
     //[SerializeField] private float platformSpeedMax = 2f;
 
     [SerializeField] private PlayerController controller;
+    private Quaternion playerRotation;
 
     /// <summary>
     /// The player rotates depending on what kind of platform they're on
@@ -64,17 +65,23 @@ public class StickyPlatform : MonoBehaviour
             }
 
         }
+        playerRotation = collision.gameObject.transform.rotation;
+    }
+
+    public Quaternion GetPlayerRotation()
+    {
+        return playerRotation;
     }
 
     /// <summary>
     /// The player is no longer attached to the platform they're on.
     /// </summary>
     /// <param name="collision"></param>
-    private void OnCollisionExit(Collision collision)
+    /*private void OnCollisionExit(Collision collision)
     {
         if(collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.transform.SetParent(null);
         }
-    }
+    }*/
 }
