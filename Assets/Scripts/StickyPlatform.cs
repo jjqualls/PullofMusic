@@ -7,6 +7,7 @@
 *****************************************************************************/
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class StickyPlatform : MonoBehaviour
@@ -16,7 +17,6 @@ public class StickyPlatform : MonoBehaviour
     //[SerializeField] private float platformSpeedMax = 2f;
 
     [SerializeField] private PlayerController controller;
-    private Quaternion playerRotation;
 
     /// <summary>
     /// The player rotates depending on what kind of platform they're on
@@ -48,7 +48,7 @@ public class StickyPlatform : MonoBehaviour
                 }
                 else
                 {
-                    collision.gameObject.transform.rotation = Quaternion.Euler(0, 0, 90 * controller.GetAngle());
+                    collision.gameObject.transform.rotation = Quaternion.Euler(0, 0, 90 * controller.GetAngle());    
                 }
             }
             else if (collision.gameObject.transform.rotation.x == 0
@@ -65,12 +65,7 @@ public class StickyPlatform : MonoBehaviour
             }
 
         }
-        playerRotation = collision.gameObject.transform.rotation;
-    }
-
-    public Quaternion GetPlayerRotation()
-    {
-        return playerRotation;
+        
     }
 
     /// <summary>

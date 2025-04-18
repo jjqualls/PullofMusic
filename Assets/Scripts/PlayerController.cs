@@ -102,14 +102,15 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Triggered");
         if (other.gameObject.CompareTag("Positive"))
         {
             angle = 1;
+            Debug.Log("Pos");
         }
         else if (other.gameObject.CompareTag("Negative"))
         {
             angle = -1;
+            Debug.Log("Neg");
         }
     }
 

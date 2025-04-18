@@ -83,7 +83,6 @@ public class PlayClarinet : MonoBehaviour
         {
             force = Vector3.left;
         }
-        UnityEngine.Debug.Log(force);
     }
 
     /// <summary>
