@@ -16,7 +16,6 @@ public class NewBehaviourScript : MonoBehaviour
     [SerializeField] private Vector3 rightOffset;
     [SerializeField] private Vector3 leftOffset;
     [SerializeField] private Vector3 upsideDownOffset;
-    private StickyPlatform platform;
 
     /// <summary>
     /// Camera follows the player from a distance.
@@ -24,25 +23,21 @@ public class NewBehaviourScript : MonoBehaviour
     void LateUpdate()
     {
         //different offsets dependent on player rotation
-        if(platform.GetPlayerRotation() == Quaternion.Euler(0,0,0))
+        if(player.transform.rotation == Quaternion.Euler(0,0,0))
         {
             transform.position = player.transform.position + offset;
         }
-        else if(platform.GetPlayerRotation() == Quaternion.Euler(0, 0, 180))
+        else if(player.transform.rotation == Quaternion.Euler(0, 0, 180))
         {
-            transform.position = player.transform.position + offset;
+            transform.position = player.transform.position + upsideDownOffset;
         }
-        else if(platform.GetPlayerRotation() == Quaternion.Euler(0, 0, -90))
+        else if(player.transform.rotation == Quaternion.Euler(0, 0, -90))
         {
-            transform.position = player.transform.position + offset;
+            transform.position = player.transform.position + leftOffset;
         }
-        else if(platform.GetPlayerRotation() == Quaternion.Euler(0, 0, 90))
+        else if(player.transform.rotation == Quaternion.Euler(0, 0, 90))
         {
-            transform.position = player.transform.position + offset;
-        }
-        else
-        {
-            transform.position = player.transform.position + offset;
+            transform.position = player.transform.position + rightOffset;
         }
         
     }
