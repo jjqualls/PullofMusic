@@ -64,15 +64,4 @@ public class StickyPlatform : MonoBehaviour
         
     }
 
-    /// <summary>
-    /// The player is no longer attached to the platform they're on.
-    /// </summary>
-    /// <param name="collision"></param>
-    /*private void OnCollisionExit(Collision collision)
-    {
-        if(collision.gameObject.CompareTag("Player"))
-        {
-            collision.gameObject.transform.SetParent(null);
-        }
-    }*/
 }
