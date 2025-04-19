@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private PlayerInput playerInput;
     [SerializeField] private float moveSpeed;
+    [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject howToPlayMenu;
     private InputAction quit;
     private InputAction restart;
     private InputAction pause;
@@ -43,7 +45,7 @@ public class PlayerController : MonoBehaviour
         quit.performed += Quit_performed;
         restart.performed += Restart_performed;
         move.performed += Move_performed;
-        pause.performed += Pause_performed; //until I have a pause menu setup
+        pause.performed += ctx => Pause();
 
     }
 
@@ -54,18 +56,35 @@ public class PlayerController : MonoBehaviour
     private void Move_performed(InputAction.CallbackContext obj)
     {
         Vector2 inputMovement = obj.ReadValue<Vector2>();
+
         playerMovement.x = inputMovement.x * moveSpeed;
         playerMovement.z = inputMovement.y * moveSpeed;
+          
     }
 
     /// <summary>
     /// Calls the pause menu
     /// </summary>
-    /// <param name="obj"></param>
-    /// <exception cref="System.NotImplementedException"></exception>
-    private void Pause_performed(InputAction.CallbackContext obj)
+    public void Pause()
     {
-        //
+        if(pauseMenu != null && !pauseMenu.activeInHierarchy)
+        {
+            pauseMenu.SetActive(true);
+        }
+        else if(pauseMenu != null && pauseMenu.activeInHierarchy)
+        {
+            pauseMenu.SetActive(false);
+        }
+    }
+
+    /// <summary>
+    /// Returns to the main menu of the game
+    /// </summary>
+    public void BackToMainMenu()
+    {
+        pauseMenu.SetActive(false);
+        howToPlayMenu.SetActive(false);
+        SceneManager.LoadScene(0);
     }
 
     /// <summary>
@@ -99,18 +118,19 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
+    /// <summary>
+    /// Decides the direction the player is landing on the platform
+    /// </summary>
+    /// <param name="other"></param>
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Positive"))
         {
             angle = 1;
-            Debug.Log("Pos");
         }
         else if (other.gameObject.CompareTag("Negative"))
         {
             angle = -1;
-            Debug.Log("Neg");
         }
     }
 
@@ -128,18 +148,28 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     void FixedUpdate()
     {
-        /*Vector3 moveVector = (playerMovement.x * transform.right) + (playerMovement.z * transform.forward);
-        rb.velocity = new Vector3(moveVector.x, rb.velocity.y, moveVector.z);
-        Debug.Log(playerMovement.x);*/
         rb.AddForce(transform.forward * playerMovement.z, ForceMode.Impulse);
-        rb.AddForce(transform.right * playerMovement.x, ForceMode.Impulse);
+
+        //inverts movement commands if player is upside down
+        if (gameObject.transform.rotation == Quaternion.Euler(0, 0, 180))
+        {
+            rb.AddForce(transform.right * -playerMovement.x, ForceMode.Impulse);
+        }
+        else
+        {
+            rb.AddForce(transform.right * playerMovement.x, ForceMode.Impulse);
+        }
+        
     }
 
+    /// <summary>
+    /// Destroys the performed actions after it is used
+    /// </summary>
     private void OnDestroy()
     {
         quit.performed -= Quit_performed;
         restart.performed -= Restart_performed;
         move.performed -= Move_performed;
-        pause.performed -= Pause_performed;
+        pause.performed -= ctx => Pause();
     }
 }

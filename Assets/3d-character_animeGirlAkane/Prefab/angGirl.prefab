@@ -1996,6 +1996,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerInput: {fileID: 1147202335192914757}
   moveSpeed: 0.05
+  pauseMenu: {fileID: 286518363748216190, guid: ef226af98c4734b46812f18a6443b902, type: 3}
+  howToPlayMenu: {fileID: 49686182749099655, guid: 4003718c197c39341b492d48e708729b, type: 3}
 --- !u!114 &1664767810814223893
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -12,10 +12,6 @@ using UnityEngine;
 
 public class StickyPlatform : MonoBehaviour
 {
-    //[SerializeField] private float gravityPull = 1f;
-    //[SerializeField] private float platformGravityPull = 0.2f;
-    //[SerializeField] private float platformSpeedMax = 2f;
-
     [SerializeField] private PlayerController controller;
 
     /// <summary>
