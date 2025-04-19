@@ -533,23 +533,19 @@ MonoBehaviour:
     Press
     one of the arrow keys to fall in the direction of other platforms
 
+
     Up arrow
     to fall Up, Down to fall Down, Left to fall Left, and Right to fall Right
 
 
 
-    When
-    you are upside down the A/D keys are inverted
+    Find
+    the door that will let you leave the maze
 
 
 
-    Find the door that will
-    let you leave the maze
-
-
-
-    Q lets you Quit the game, and R lets you Restart
-    a maze'
+    Q lets you Quit the game, and
+    R lets you Restart a maze'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 869338e1f434fde439492333a3cb74e4, type: 2}
   m_sharedMaterial: {fileID: -7867922278220641110, guid: 869338e1f434fde439492333a3cb74e4, type: 2}
