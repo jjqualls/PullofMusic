@@ -465,6 +465,30 @@ PrefabInstance:
       propertyPath: titleScreen
       value: 
       objectReference: {fileID: 329510969}
+    - target: {fileID: 3600272484678011958, guid: 4003718c197c39341b492d48e708729b, type: 3}
+      propertyPath: m_text
+      value: 'Use the WASD keys to slide the character around the platform
+
+
+
+        Press
+        one of the arrow keys to fall in the direction of other platforms
+
+
+        Up
+        arrow to fall Up, Down to fall Down, Left to fall Left, and Right to fall
+        Right
+
+
+
+        Find the door that will let you leave the maze
+
+
+
+        Esc
+        lets you Pause the game, Q lets you Quit the game, and R lets you Restart
+        a maze'
+      objectReference: {fileID: 0}
     - target: {fileID: 4684131480858826384, guid: 4003718c197c39341b492d48e708729b, type: 3}
       propertyPath: m_Pivot.x
       value: 0

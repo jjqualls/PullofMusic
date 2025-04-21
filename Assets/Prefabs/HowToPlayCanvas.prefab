@@ -544,8 +544,8 @@ MonoBehaviour:
 
 
 
-    Q lets you Quit the game, and
-    R lets you Restart a maze'
+    Esc lets you Pause the game,
+    Q lets you Quit the game, and R lets you Restart a maze'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 869338e1f434fde439492333a3cb74e4, type: 2}
   m_sharedMaterial: {fileID: -7867922278220641110, guid: 869338e1f434fde439492333a3cb74e4, type: 2}
