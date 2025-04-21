@@ -912,12 +912,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "You wake up on a gray floor surrounded by darkness. \n\nThen a bright
-    light beams upon you showing a descending clarinet. Once before you, you grab
-    the clarinet out of the air and play a note out of instinct. \nSuddenly you find
-    yourself floating up towards a gray ceiling, but instead of running into it you
-    land safely. \n\nAnd from the recesses of your mind you hear a voice say, \"You
-    have nothing to worry about, for I will help you.\""
+  m_text: "You wake up on a cold slab of concrete surrounded by darkness, when you
+    are blinded by a sudden light that appears before you. \n\nYou squint your eyes
+    as a clarinet descends before you. A strange calling from the instrument urges
+    you to play from it. \nSuddenly floating upwards has you look to the sky to see
+    another slab in your path. \n\nYou wait for the inevitable collision, but it
+    never comes. Instead you ricochet off it, flip over, and land safely. \n\nYou
+    look down at the mysterious clarinet which speaks and says, \"You have nothing
+    to fear, for I will help you.\""
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 869338e1f434fde439492333a3cb74e4, type: 2}
   m_sharedMaterial: {fileID: -7867922278220641110, guid: 869338e1f434fde439492333a3cb74e4, type: 2}
@@ -944,8 +946,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 56
-  m_fontSizeBase: 56
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -980,7 +982,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -249.21603, y: -189.16788, z: -246.99371, w: -188.5631}
+  m_margin: {x: -249.21603, y: -189.16788, z: -278.49286, w: -188.5631}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

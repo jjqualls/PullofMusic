@@ -400,12 +400,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "You walk through an open door to what looks like your college campus.
-    You try to turn your head, but realize you aren't in control of your body. \n\nAs
-    you walk forward you hear voices saying, \"Hopeless. You can't make a living
-    like this! When will you grow up and start earning your place.\" \n\nUp ahead
-    you notice a figure who you see is yourself. The last thing you hear before reaching
-    the next door is yourself saying, \"I'm tired...\""
+  m_text: "You come through the door to your college campus. Confused you try and
+    turn your head only to realize you can't control it. \n\nYour body walks further
+    into the campus, and you slowly hear voices getting louder and louder. \"Hopeless.
+    Wasted education! When will you grow out of this childish hobby. Music won't
+    pay...\" is all you hear. \n\nUp ahead a figure emerges from the dark who turns
+    out to be you. As you pass yourself, reaching the other door, you hear a whisper.
+    \"I'm tired...\" "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 869338e1f434fde439492333a3cb74e4, type: 2}
   m_sharedMaterial: {fileID: -7867922278220641110, guid: 869338e1f434fde439492333a3cb74e4, type: 2}
@@ -432,8 +433,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 56
-  m_fontSizeBase: 56
+  m_fontSize: 52
+  m_fontSizeBase: 52
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -468,7 +469,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -249.21603, y: -189.16788, z: -246.99371, w: -188.5631}
+  m_margin: {x: -249.21603, y: -189.16788, z: -278.59183, w: -188.5631}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

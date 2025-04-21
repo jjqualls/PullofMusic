@@ -479,11 +479,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "This time you enter your room as your body becomes controlled. \n\nThe
-    door opens to your parents telling you, \"It's time to put that old thing away.
-    You don't have time for it.\" You look down towards your hands to see yourself
-    carrying a clarinet case. \n\nAll you hear before you enter the next door is,
-    \"Is this really how it ends?\""
+  m_text: "This time the door leads you to the room you moved back into after college.\n\nThe
+    door opens, and your body turns to take in the silhouette of your parents. You
+    hear them say, \"It's time to put that old thing away. You don't have time for
+    it.\" \nLooking down at your hands comes with the surprise of your old clarinet
+    held in your grip. The world begins to fade as you stare at the instrument despairingly.\n\n\"So
+    this is it, my music has finally been drowned out by the bitter noise of life\",
+    you think as the world finally fades away."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 869338e1f434fde439492333a3cb74e4, type: 2}
   m_sharedMaterial: {fileID: -7867922278220641110, guid: 869338e1f434fde439492333a3cb74e4, type: 2}
@@ -510,8 +512,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 56
-  m_fontSizeBase: 56
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -546,7 +548,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -249.21603, y: -189.16788, z: -246.99371, w: -188.5631}
+  m_margin: {x: -249.21603, y: -189.16788, z: -275.85596, w: -188.5631}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

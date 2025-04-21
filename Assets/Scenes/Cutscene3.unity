@@ -676,12 +676,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "You lose control of your body again as you enter a room that looks like
-    an office.\n\nYou sit down at a desk and watch as papers pile up before you.
-    With each new stack you hear a voice tell you, \"The deadline is tomorrow. You
-    did it wrong, do it over. I need you to do this report for me.\" \n\nThis goes
-    on and on until the stack gets so high it falls over burying you beneath it.
-    As your vision turns black you hear a voice lament, \"I just want to play again.\""
+  m_text: "Your body goes on autopilot again as you enter an office space. \n\nYou
+    sit at a desk with your name on it and watch as tower of papers begins to pile
+    up before you. The voice of your boss surrounds you saying, \"You did it wrong,
+    do it again\", over and over. \n\nThe echoes continue as the tower begins to
+    tilt high above your head. \nYou watch it solemnly and, as crashes on top of
+    you, you can only think about how much you miss being able to play."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 869338e1f434fde439492333a3cb74e4, type: 2}
   m_sharedMaterial: {fileID: -7867922278220641110, guid: 869338e1f434fde439492333a3cb74e4, type: 2}
@@ -708,8 +708,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 56
-  m_fontSizeBase: 56
+  m_fontSize: 52
+  m_fontSizeBase: 52
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -744,7 +744,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -249.21603, y: -189.16788, z: -246.99371, w: -188.5631}
+  m_margin: {x: -249.21603, y: -189.16788, z: -278.5708, w: -188.5631}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

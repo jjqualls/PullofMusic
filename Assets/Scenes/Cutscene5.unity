@@ -179,15 +179,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "This time as you open the door, a bright light flashes before your eyes.
-    \n\nAll you can see is a vehicle and the sound of a crash before you pass out.
-    When you regain consciousness, you hear beeping. \nGroggy and confused you hear
-    the same voice from when you first played the clarinet. It says to you, \"You've
-    been hurt badly. Not just by this accident but by life itself. I've helped you
-    remember the reason you locked yourself in the maze, but now you must decide
-    whether to regain your life or forever wander the maze. Your life is always up
-    to you. What do you desire?\" \n\nYou stay quiet for a while before answering,
-    \"I want to live\" as the screen turns bright finishing the game."
+  m_text: "You exit the door to a bright blinding light and a feeling of immense
+    pain. Your senses have gone wild and confusing, but you can make out the sound
+    of an ambulance. You drift in and out of consciousness to the sounds of doctors,
+    medical equipment, and your parents crying. \n\nFinally you're able to stay awake,
+    and that's when the mysterious clarinet, your clarinet, that accompanied you
+    on your journey speaks up. \"You've been hurt badly. Not just from this accident,
+    but by life. When you arrived here, you trapped yourself in a maze of pain. I
+    helped you leave because I know your life can be so much more than just pain.
+    But it is your choice to decide how to live. What is it you wish to do?\" \n\n\"I
+    want to play, I want to live!\""
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 869338e1f434fde439492333a3cb74e4, type: 2}
   m_sharedMaterial: {fileID: -7867922278220641110, guid: 869338e1f434fde439492333a3cb74e4, type: 2}
@@ -250,7 +251,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -249.21603, y: -189.16788, z: -246.99371, w: -188.5631}
+  m_margin: {x: -249.21603, y: -189.16788, z: -279.5384, w: -188.5631}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
