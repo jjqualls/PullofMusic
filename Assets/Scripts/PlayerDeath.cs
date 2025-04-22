@@ -48,8 +48,6 @@ public class PlayerDeath : MonoBehaviour
             transform.position.x < dyingNegativeXValue ||
             transform.position.x > dyingPositiveXValue && !isDead)
         {
-            //Debug.Log("Y: " + transform.position.y);
-            //Debug.Log("X: " + transform.position.x);
             Death();
         }
     }
