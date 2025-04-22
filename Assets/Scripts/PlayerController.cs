@@ -110,7 +110,7 @@ public class PlayerController : MonoBehaviour
     /// <param name="obj"></param>
     private void Quit_performed(InputAction.CallbackContext obj)
     {
-        //UnityEditor.EditorApplication.isPlaying = false;
+        UnityEditor.EditorApplication.isPlaying = false;
 
         if (Application.isPlaying)
         {
