@@ -299,6 +299,22 @@ PrefabInstance:
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 1460091900}
+    - target: {fileID: 2585474591038861450, guid: bb7454f03443fa347b3f53cf34784752, type: 3}
+      propertyPath: force.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2585474591038861450, guid: bb7454f03443fa347b3f53cf34784752, type: 3}
+      propertyPath: force.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2585474591038861450, guid: bb7454f03443fa347b3f53cf34784752, type: 3}
+      propertyPath: launchValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2585474591038861450, guid: bb7454f03443fa347b3f53cf34784752, type: 3}
+      propertyPath: launchVector.x
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3978536340359700627, guid: bb7454f03443fa347b3f53cf34784752, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.48
@@ -360,7 +376,8 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8850710693926404546, guid: bb7454f03443fa347b3f53cf34784752, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb7454f03443fa347b3f53cf34784752, type: 3}

@@ -1434,6 +1434,10 @@ PrefabInstance:
       propertyPath: howToPlayMenu
       value: 
       objectReference: {fileID: 336847397}
+    - target: {fileID: 2585474591038861450, guid: bb7454f03443fa347b3f53cf34784752, type: 3}
+      propertyPath: launchValue
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3978536340359700627, guid: bb7454f03443fa347b3f53cf34784752, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.1
@@ -1483,7 +1487,8 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8850710693926404546, guid: bb7454f03443fa347b3f53cf34784752, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb7454f03443fa347b3f53cf34784752, type: 3}
