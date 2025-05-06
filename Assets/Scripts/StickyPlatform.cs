@@ -19,7 +19,7 @@ public class StickyPlatform : MonoBehaviour
     /// The player rotates depending on what kind of platform they're on
     /// </summary>
     /// <param name="collision"></param>
-    private void OnTriggerEnter(Collider collision)
+    private void OnCollisionEnter(Collision collision)
     {
 
         if (collision.gameObject.CompareTag("Player"))
@@ -36,9 +36,7 @@ public class StickyPlatform : MonoBehaviour
                 {
                     if (controller.GetAngle() > 0)
                     {
-                        StartCoroutine(RotateTweening(collision.gameObject.transform.rotation, 
-                            Quaternion.Euler(0, 0, 0)));
-                        //collision.gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
+                        collision.gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
                     }
                     else if (controller.GetAngle() < 0)
                     {
@@ -73,7 +71,7 @@ public class StickyPlatform : MonoBehaviour
     /// <param name="startRotation"></param>
     /// <param name="endRotation"></param>
     /// <returns></returns>
-    IEnumerator RotateTweening(Quaternion startRotation, Quaternion endRotation)
+    /*IEnumerator RotateTweening(Quaternion startRotation, Quaternion endRotation)
     {
         float elapsedTime = 0f;
         while (elapsedTime < 1f)
@@ -84,5 +82,8 @@ public class StickyPlatform : MonoBehaviour
         }
         transform.rotation = endRotation; // Ensure we reach the target exactly
     }
+
+    StartCoroutine(RotateTweening(collision.gameObject.transform.rotation,
+                            Quaternion.Euler(0, 0, 0)));*/
 
 }
