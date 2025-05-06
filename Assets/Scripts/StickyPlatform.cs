@@ -46,7 +46,6 @@ public class StickyPlatform : MonoBehaviour
                 else
                 {
                     collision.gameObject.transform.rotation = Quaternion.Euler(0, 0, 90 * controller.GetAngle());
-                    Debug.Log(controller.GetAngle());
                 }
             }
             else if (collision.gameObject.transform.rotation.x == 0
@@ -64,7 +63,6 @@ public class StickyPlatform : MonoBehaviour
             else
             {
                 collision.gameObject.transform.rotation = Quaternion.Euler(0, 0, 90 * controller.GetAngle());
-                Debug.Log(controller.GetAngle());
             }
 
         }
