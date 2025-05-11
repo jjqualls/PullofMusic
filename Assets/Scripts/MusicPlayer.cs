@@ -50,6 +50,10 @@ public class MusicPlayer : MonoBehaviour
                 musicScene = "2ndBackgroundMusic";
                 count = 3;
                 break;
+            case 10:
+                musicScene = "3rdBackgroundMusic";
+                count = 4;
+                break;
         }
 
         GameObject backgroundMusic = GameObject.Find(musicScene);
@@ -61,7 +65,7 @@ public class MusicPlayer : MonoBehaviour
         }
 
         //plays new music and gets rid of old music
-        if (SceneManager.GetActiveScene().name.Contains("Maze"))
+        if (SceneManager.GetActiveScene().name.Contains("Maze") || SceneManager.GetActiveScene().name.Contains("End"))
         {
             if(backgroundMusic != null)
             {
