@@ -84,6 +84,30 @@ public class PlayerController : MonoBehaviour
     {
         pauseMenu.SetActive(false);
         howToPlayMenu.SetActive(false);
+
+        string musicScene = "";
+
+        //so repeats don't happen
+        switch (SceneManager.GetActiveScene().buildIndex)
+        {
+            case 2:
+                musicScene = "TitleBackgroundMusic";
+                break;
+            case 4:
+                musicScene = "1stBackgroundMusic";
+                break;
+            case 6:
+                musicScene = "2ndBackgroundMusic";
+                break;
+            case 8:
+                musicScene = "3rdBackgroundMusic";
+                break;
+        }
+
+        GameObject backgroundMusic = GameObject.Find(musicScene);
+
+        Destroy(backgroundMusic);
+
         SceneManager.LoadScene(0);
     }
 
