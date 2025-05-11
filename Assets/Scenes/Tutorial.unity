@@ -1122,6 +1122,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1539663136938124754, guid: bb7454f03443fa347b3f53cf34784752, type: 3}
+      propertyPath: dyingNegativeXValue
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539663136938124754, guid: bb7454f03443fa347b3f53cf34784752, type: 3}
+      propertyPath: dyingNegativeYValue
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539663136938124754, guid: bb7454f03443fa347b3f53cf34784752, type: 3}
+      propertyPath: dyingPositiveXValue
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539663136938124754, guid: bb7454f03443fa347b3f53cf34784752, type: 3}
+      propertyPath: dyingPositiveYValue
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 1553806577385020577, guid: bb7454f03443fa347b3f53cf34784752, type: 3}
       propertyPath: pauseMenu
       value: 
